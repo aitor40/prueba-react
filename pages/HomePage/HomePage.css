@@ -9,4 +9,12 @@ main {
     flex-wrap: wrap;
     box-sizing: border-box;
     padding: 38px 0;
+    flex-grow: 1;
+}
+
+main > a {
+    width: 14.28%;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
 }

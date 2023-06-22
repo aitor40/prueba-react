@@ -1,17 +1,16 @@
 import './Title.css';
 
-export const Title = ({ variant, name }) => {
+export const Title = ({ title, variant = '', name = '' }) => {
 
     if( variant == 'generic' ) {
 
         return (
             <div className="title">
-                <div className="bg">
-                    <div className="generic">
-                        <p>{ name.toUpperCase() }</p>
-                    </div>
+                <img src="../../assets/placeholder-bg.jpg" alt="" />
+                <div className="generic">
+                    <p>{ name.toUpperCase() }</p>
                 </div>
-                <p>Popular Series</p>
+                <p>{ title }</p>
             </div>
         )
     
@@ -19,8 +18,8 @@ export const Title = ({ variant, name }) => {
 
         return (
             <div className="title">
-                <img src="../../assets/heroes/dc-arrow.jpg" alt="" />
-                <p>Popular Series</p>
+                <img src="../../assets/no-video.png" alt="" />
+                <p>{ title }</p>
             </div>
         )
         

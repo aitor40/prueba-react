@@ -1,7 +1,8 @@
 .title {
-    width: 14.28%;
+    width: 100%;
     box-sizing: border-box;
     padding: 8px;
+    position: relative;
 }
 
 .bg {
@@ -9,11 +10,13 @@
 }
 .generic {
     position: absolute;
+    top: 0;
+    left: 0;
     background-image: url('../../assets/placeholder.png');
     background-repeat: no-repeat;
     background-position: center;
-    height:27vh;
     width: 100%;
+    height: calc(100% - 29px);
     display: flex;
     justify-content: center;
     align-items: center;
