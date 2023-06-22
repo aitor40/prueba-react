@@ -1,0 +1,12 @@
+.width1200 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 38px 0;
+}

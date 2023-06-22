@@ -1,0 +1,38 @@
+h1, h2 {
+    color: #ffffff;
+}
+
+.btn {
+    background: rgb(68,68,68);
+    background: linear-gradient(180deg, rgba(68,68,68,1) 0%, rgba(54,54,54,1) 100%);
+    padding: 10px 14px;
+}
+
+#primary-header {
+    background: rgb(0,153,255);
+    background: linear-gradient(180deg, rgba(0,153,255,1) 0%, rgba(11,89,206,1) 100%);
+    padding: 16px 0;
+}
+
+#primary-header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#primary-header > div > div {
+    display: flex;
+    align-items: center;
+    gap: 24px
+}
+
+#primary-header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#secondary-header {
+    background: rgb(68,68,68);
+    background: linear-gradient(180deg, rgba(68,68,68,1) 0%, rgba(54,54,54,1) 100%);
+    padding: 16px 0;
+}
