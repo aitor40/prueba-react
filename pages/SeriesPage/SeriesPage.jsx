@@ -13,6 +13,10 @@ export const SeriesPage = () => {
     });
     const maxListSeries = seriesDataSorted.slice(0, 20);
 
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('Ha cargado!')
+    });
+
     return (
         <>
             <Header title="Popular Series" />

@@ -36,3 +36,22 @@ h1, h2 {
     background: linear-gradient(180deg, rgba(68,68,68,1) 0%, rgba(54,54,54,1) 100%);
     padding: 16px 0;
 }
+
+@media (max-width: 1200px) {
+    #primary-header, #secondary-header {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    #primary-header > div {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    #primary-header > div > div {
+        flex-direction: column;
+    }
+}

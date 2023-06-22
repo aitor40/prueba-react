@@ -1,3 +1,39 @@
 .title-container {
     width: 14.28%;
 }
+
+@media (max-width: 1200px) {
+    .title-container {
+        width: 16.6%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .title-container {
+        width: 20%;
+    }
+}
+
+@media (max-width: 820px) {
+    .title-container {
+        width: 25%;
+    }
+}
+
+@media (max-width: 660px) {
+    .title-container {
+        width: 33.3%;
+    }
+}
+
+@media (max-width: 500px) {
+    .title-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 350px) {
+    .title-container {
+        width: 100%;
+    }
+}

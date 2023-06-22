@@ -18,3 +18,39 @@ main > a {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+    main > a {
+        width: 16.6%;
+    }
+}
+
+@media (max-width: 1000px) {
+    main > a {
+        width: 20%;
+    }
+}
+
+@media (max-width: 820px) {
+    main > a {
+        width: 25%;
+    }
+}
+
+@media (max-width: 660px) {
+    main > a {
+        width: 33.3%;
+    }
+}
+
+@media (max-width: 500px) {
+    main > a {
+        width: 50%;
+    }
+}
+
+@media (max-width: 350px) {
+    main > a {
+        width: 100%;
+    }
+}
